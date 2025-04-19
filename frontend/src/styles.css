@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .kanban-board {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 10px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .columns > div {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .columns h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .task-card {
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .task-card p {
+    margin: 0 0 10px;
+    font-weight: 500;
+  }
+  
+  .task-card button {
+    margin-right: 6px;
+    background-color: #6c757d;
+  }
+  
+  .task-card button:hover {
+    background-color: #5a6268;
+  }
+  
